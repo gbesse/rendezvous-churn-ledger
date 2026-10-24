@@ -1,0 +1,20 @@
+{
+  "keys": [
+    "alpha",
+    "beta",
+    "gamma",
+    "delta"
+  ],
+  "before_nodes": [
+    "a",
+    "b",
+    "c"
+  ],
+  "after_nodes": [
+    "a",
+    "b",
+    "c",
+    "d"
+  ],
+  "replicas": 2
+}

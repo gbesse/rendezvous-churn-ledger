@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "rendezvous-churn-ledger"
+version = "0.1.0a1"
+description = "FR: Mesurer les déplacements de clés lors d’un changement de placement distribué | EN: Measure key movement when distributed placement changes | ES: Medir movimiento de claves al cambiar la ubicación distribuida"
+requires-python = ">=3.11"
+license = "MIT"
+
+[project.scripts]
+rendezvous-churn-ledger = "rendezvous_churn_ledger.__main__:main"
+
+[tool.setuptools.packages.find]
+include = ["rendezvous_churn_ledger*"]

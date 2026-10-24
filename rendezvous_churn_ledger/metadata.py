@@ -1,0 +1,1 @@
+DESCRIPTION = {'fr': 'Mesurer les déplacements de clés lors d’un changement de placement distribué', 'en': 'Measure key movement when distributed placement changes', 'es': 'Medir movimiento de claves al cambiar la ubicación distribuida'}
